@@ -13,11 +13,11 @@ console.log(b)
 ```
 
 #### v-on事件修饰符
-  - capture捕获事件，点击子元素也会触发父级事件
+  - capture捕获事件,点击子元素也会触发父级事件
   - stop阻止事件冒泡
   - once该事件触发一次
-  - self修饰符.self只会触发自己范围内的事件，不会包含子元素。
-  - prevent,阻止事件的默认事件，例如button[type="submit"] ，a[href="#"]虽然是冒泡阶段开始，但不会因为stop阻止事件传递而停止的事件；
+  - self修饰符.self只会触发自己范围内的事件,不会包含子元素。
+  - prevent,阻止事件的默认事件,例如button[type="submit"],a[href="#"]虽然是冒泡阶段开始，但不会因为stop阻止事件传递而停止的事件；
 
 #### 如何实现一个v-model的组件
 
