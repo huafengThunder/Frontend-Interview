@@ -2,7 +2,10 @@
 - 基础
   - html5
   - css3
-  - es6
+  - javascript
+    - es
+    - dom
+    - bom
   - vue
 - 网络
   - http
