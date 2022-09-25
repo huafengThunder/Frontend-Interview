@@ -9,6 +9,8 @@
   - vue
 - 网络
   - http
+  - udp
+  - websocket
 - 数据结构/算法
 - 工具链
   - 打包

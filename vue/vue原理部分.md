@@ -19,4 +19,6 @@
 
 #### computed和watch原理,分别发生在哪个生命周期
 
+#### Vue.$nextTick为什么比setTimeout优先级高,渲染也更快生效
+
 #### new Vue发生了什么
