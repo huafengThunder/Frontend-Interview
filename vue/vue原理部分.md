@@ -28,6 +28,8 @@
 - 获取html
 - 转化ast
 - generate函数生成rander函数
-- 生成虚拟dom
+- rander函数生成虚拟dom
 - 生成真实dom
 #### new Vue发生了什么
+
+
