@@ -11,10 +11,10 @@
  */
 ```
 function new (){
-  let obj = new Object();
-  let constructor = [].shift.call(arguments)
-  obj._proto_ = constructor.prototype
-  constructor.apply(person, arguments)
-  return obj
+  let [constructorFn,...arg] = [...arguments] 
+  let obj = Object.create(null) 
+  obj.__proto__ = constructorFn.prototype
+  let tartgetObj = ArgFun.apply(obj, arg)
+  return tartgetObj instanceof Object == true ? tartgetObj : obj
 } 
 ```
