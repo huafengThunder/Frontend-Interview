@@ -11,10 +11,10 @@
  */
 ```
 function new (){
-  let [constructorFn,...arg] = [...arguments] 
-  let obj = Object.create(null) 
-  obj.__proto__ = constructorFn.prototype
-  let tartgetObj = ArgFun.apply(obj, arg)
-  return tartgetObj instanceof Object == true ? tartgetObj : obj
-} 
+  let [Fn,...args] = [...arguments]
+  let obj = {}
+  obj.__proto__ = Fn.prototype
+  let res = Fn.apply(obj,args)
+  return res instanceOf Object === true ? res : obj
+}
 ```
