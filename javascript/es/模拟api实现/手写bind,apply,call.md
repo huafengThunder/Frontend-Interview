@@ -25,9 +25,6 @@
   }
   var obj = {};
   var bar = foo.myBind(obj);
-  bar('Jack');
-  console.log(obj.name);      // Jack
-  var alice = new bar('Alice');
-  console.log(obj.name);      // Alice
+  var alice = new bar('Alice'); // es6会出现bar不是构造器的错误
   console.log(alice.name);    // undefined
 ```
