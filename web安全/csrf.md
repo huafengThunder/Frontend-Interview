@@ -1,0 +1,3 @@
+- 定义:跨站请求伪造（Cross-site request forgery），是一种网络攻击方式
+- 攻击思路:用户必须是登录态 + 把请求参数改成攻击者设置的参数
+- 解决思路:token/csrftoken
