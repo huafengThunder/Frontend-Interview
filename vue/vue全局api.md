@@ -4,3 +4,6 @@
 #### Vue.extend(options) 做了什么？
 - 扩展一个子类
   -
+#### 组件name的作用
+- 递归组件
+- keepalive通过name移除缓存作用
